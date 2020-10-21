@@ -16,7 +16,7 @@ using namespace winrt::ProgressViewExample::implementation;
 /// </summary>
 App::App() noexcept
 {
-     MainComponentName(L"ProgressViewExample");
+     // MainComponentName(L"ProgressViewExample");
 
 #if BUNDLE
     JavaScriptBundleFile(L"index.windows");
